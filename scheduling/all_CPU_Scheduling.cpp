@@ -245,22 +245,22 @@ int main() {
     displayResult(processes);
 
     // SJF Non-Preemptive Scheduling
-    processes.clear();
-    inputProcesses(processes);
+    // processes.clear();
+    // inputProcesses(processes);
     sjfNP(processes);
     cout << "\nSJF Non-Preemptive Scheduling:\n";
     displayResult(processes);
 
     // SJF Preemptive Scheduling
-    processes.clear();
-    inputProcesses(processes);
+    // processes.clear();
+    // inputProcesses(processes);
     sjfPreemptive(processes);
     cout << "\nSJF Preemptive Scheduling:\n";
     displayResult(processes);
 
     // Round Robin Scheduling
-    processes.clear();
-    inputProcesses(processes);
+    // processes.clear();
+    // inputProcesses(processes);
     cout << "Enter the time quantum: ";
     cin >> timeQuantum;
     roundRobin(processes, timeQuantum);
@@ -268,15 +268,15 @@ int main() {
     displayResult(processes);
 
     // Priority Non-Preemptive Scheduling
-    processes.clear();
-    inputProcesses(processes, true);
+    // processes.clear();
+    // inputProcesses(processes, true);
     nonPreemptivePriority(processes);
     cout << "\nPriority Non-Preemptive Scheduling:\n";
     displayResult(processes);
 
     // Priority Preemptive Scheduling
-    processes.clear();
-    inputProcesses(processes, true);
+    // processes.clear();
+    // inputProcesses(processes, true);
     preemptivePriority(processes);
     cout << "\nPriority Preemptive Scheduling:\n";
     displayResult(processes);
