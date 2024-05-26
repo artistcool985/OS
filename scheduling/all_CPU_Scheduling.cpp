@@ -281,5 +281,11 @@ int main() {
     cout << "\nPriority Preemptive Scheduling:\n";
     displayResult(processes);
 
+    //Sample Input
+//4
+//0 2
+//1 2
+//5 3
+//6 4
     return 0;
 }
