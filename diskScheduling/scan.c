@@ -18,15 +18,15 @@ void diskSCAN(int* array, int initialHead, int size)
         }
     }
 
-    // printf("Head moves from %d to 0\n", initialHead);
-    // printf("Head moves from 0 to %d\n", array[size - 1]);
-    int left = abs((MAX-1) - array[0]);
-    int right = abs((MAX-1)- initialHead);
+    printf("Head moves from %d to 0\n", initialHead);
+    printf("Head moves from 0 to %d\n", array[size - 1]);
 
     int headMovement = 0;
 
-    int left = abs(initialHead - 0);
-    int right = abs(array[size - 1] - 0);
+    // int left = abs(initialHead - 0);
+    // int right = abs(array[size - 1] - 0);
+    int left = abs((MAX-1) - array[0]);
+    int right = abs((MAX-1)- initialHead);
 
     headMovement = left + right;
 
